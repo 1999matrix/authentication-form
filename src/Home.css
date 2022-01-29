@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .content{
+    background: magenta;
+}
+.home header{
+    background: linear-gradient(to right , #a20aba , #5959d5 );
+}
+.home a{
+    color: #fff;
+}
+.home a:hover{
+    color: darkblue;
+    transition: 0.8s ;
+}
+
+ /* .content{
+    background: linear-gradient(to right ,  #E563F8,#5959d5  );
+} */
+
+.app-logo{
+    width: 10%;
+}
+
+.content div #d-1{
+    border: 5px solid red;
+}
+.c-1 h1{
+    font-size: 2rem;
+}
+
+
+#h-1{
+    margin: 5rem;
+}
+
+.c-2{
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+    align-items: center;
+}
+
