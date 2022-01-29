@@ -16,8 +16,8 @@ body{
     background-color: #fff;
      /* border: 5px solid red; */
      margin-left: 12%;
-      min-width: 350px;
-      max-width: 350px;
+      min-width: 380px;
+      max-width: 380px;
       min-height: 500px;
       width: 40%;
       /* height: 100vh; */
@@ -42,13 +42,21 @@ body{
       border-left-style: none;
         border-right-style: none;
        border-bottom-style: 2px solid rgb(97, 95, 95);
+       font-size: 1.3rem;
         
 
     }
+    .id h3{
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
     .container a{
-        margin-left: 40%;
+        margin-left: 60%;
         text-decoration: none;
         color: gray;
+    }
+    .container a::hover{
+        color: darkblue;
     }
     .g-recaptcha{
     

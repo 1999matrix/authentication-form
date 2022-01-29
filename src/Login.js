@@ -16,7 +16,8 @@ const Login = () => {
                   </div>
                   <div className="id">
                  <h3> <label htmlFor="pass">Password</label></h3>
-                 <i class="fas fa-unlock"> <input type="password" autoComplete='off' id='pass' /></i> 
+                 <i class="fas fa-unlock"></i>
+                 <input type="password" autoComplete='off' id='pass'  />
                   </div>
                   <a href="">Forgot password?</a>
                   <div className="captcha">

@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Signinform from './Signinform';
+// import Signinform from './Signinform';
 // import Home from './Home';
 // import Login from './Login';
 // import Passrecovery from './Passrecovery';
-// import Otp from './Otp';
+import Otp from './Otp';
 
 
 
@@ -14,10 +14,10 @@ function App() {
     <div className="App">
     
     {/* <Home/> */}
-     <Signinform/> 
-     {/* l<Login/> */}
+     {/* <Signinform/>  */}
+     {/* <Login/> */}
      {/* <Passrecovery/> */}
-     {/* <Otp/> */}
+     <Otp/>
     
     </div>
     </>
