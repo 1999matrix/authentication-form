@@ -13,10 +13,10 @@ const Otp = () => {
               ">
                   <div className="rid">
                       
-                <div>  <input type="text"  name="otp" maxlength="1"  pattern="\d{1}" required/></div>
-                <div>  <input type="text"  name="otp" maxlength="1"  pattern="\d{1}" required/></div>
-                <div>  <input type="text"  name="otp" maxlength="1"  pattern="\d{1}" required/></div>
-                <div> <input type="text"  name="otp" maxlength="1"  pattern="\d{1}" required/></div> 
+                <div>  <input type="text"  name="otp" maxlength="6"  pattern="\d{6}" required/></div>
+                {/* <div>  <input type="text"  name="otp" maxlength="1"  pattern="\d{1}" required/></div> */}
+                {/* <div>  <input type="text"  name="otp" maxlength="1"  pattern="\d{1}" required/></div> */}
+                {/* <div> <input type="text"  name="otp" maxlength="1"  pattern="\d{1}" required/></div>  */}
                   </div>
                   <div className="submit">
                           <input type="submit" value='Redirect to Login Page'/>
