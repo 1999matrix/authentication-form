@@ -3,7 +3,7 @@ import './sign.css';
 import { useState } from 'react';
 import Axios from 'axios'
 
-const Signinform = () => {
+const Sign = () => {
     const url ="https://curd-web.herokuapp.com/register"
     // const url ="http://localhost:3001"
     // const url ="/register"
@@ -52,6 +52,7 @@ const Signinform = () => {
          }
   return(
       <>
+      <main>
           <body>
           <div className="body">
               <div className="container">
@@ -59,7 +60,7 @@ const Signinform = () => {
                   <h1>Sign Up</h1>
               </div>
                  <form action="" onSubmit={(e)=> submit(e)}>
-                 <div className="c-1">
+                 <div className="c-11">
                  <div className="f-1">
 
                      <div className="form">
@@ -151,7 +152,7 @@ const Signinform = () => {
 
                      <div className="form">
                      
-                     {/* <div class="g-recaptcha" data-sitekey="6LeByEEeAAAAAM3tmyjk4PuD9QKHcyzrCfzhtCHx"></div> */}
+                     <div class="g-recaptcha" data-sitekey="6LeByEEeAAAAAM3tmyjk4PuD9QKHcyzrCfzhtCHx"></div>
                      </div>
                      </div>  
                      </div>
@@ -164,9 +165,9 @@ const Signinform = () => {
 
               </div>
           </div>
-          </body> 
+          </body> </main>
       </>
   ); 
 };
 
-export default Signinform;
+export default Sign;

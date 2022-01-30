@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-// import Signinform from './Signinform';
-// import Home from './Home';
+import Home from './Home';
+// import Sign from './Sign';
 // import Login from './Login';
 // import Passrecovery from './Passrecovery';
-import Otp from './Otp';
+// import Otp from './Otp';
+// import {BrowserRouter as Router , Route , Link} from 'react-router-dom'
 
 
 
@@ -12,12 +13,17 @@ function App() {
   return (
     <>
     <div className="App">
+
     
-    {/* <Home/> */}
-     {/* <Signinform/>  */}
+    
+    <Home/>
+     {/* <Sign/>  */}
      {/* <Login/> */}
+     
+     
      {/* <Passrecovery/> */}
-     <Otp/>
+     {/* <Otp/> */}
+     
     
     </div>
     </>

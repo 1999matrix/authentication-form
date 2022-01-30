@@ -3,8 +3,8 @@ import React from 'react';
 import './otp.css'
 const Otp = () => {
   return (<>
-      <body>
-          <div className="container">
+      <body> 
+          <div className="container-5">
               <div className="">
                   <h1 className="title">OTP Verification</h1>
                   <p>Enter the OTP sent to +91 XXXXXXXXXX</p>
@@ -13,7 +13,7 @@ const Otp = () => {
               ">
                   <div className="rid">
                       
-                <div>  <input type="text"  name="otp" maxlength="6"  pattern="\d{6}" required/></div>
+                <div>  <input type="text"  name="otp" maxlength="4"  pattern="\d{4}" required/></div>
                 {/* <div>  <input type="text"  name="otp" maxlength="1"  pattern="\d{1}" required/></div> */}
                 {/* <div>  <input type="text"  name="otp" maxlength="1"  pattern="\d{1}" required/></div> */}
                 {/* <div> <input type="text"  name="otp" maxlength="1"  pattern="\d{1}" required/></div>  */}
@@ -23,7 +23,7 @@ const Otp = () => {
 
                   </div>
               </form>
-          </div>
+          </div> 
       </body>
   </>);
 };

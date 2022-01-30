@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+ body{
     /* background-image: url(./assests/background\ artboard.svg); */
     /* background-repeat: no-repeat; */
     /* background-size: 100%; */
@@ -12,13 +12,13 @@ body{
     /* height: 50vh;
     width: 10vw; */
     background: url(./assests/background\ artboard.svg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
 }
 
-.container{
+.body .container{
 background-color: #fff;
  /* border: 5px solid red; */
  margin-left: 8%;
@@ -37,7 +37,7 @@ background-color: #fff;
   /* margin: 10px; */
   
 }
-.container input , select{
+.body .container input , select{
     /* display: inline; */
 padding: .5rem 1rem;
   font-size: 1.2rem;
@@ -58,9 +58,7 @@ input::placeholder{
     font-size: 17px;
     font-weight: 600;
 }
-/* .container select option{
-    padding: 0 0 10px 10px;
-} */
+
 
 .container label{
     font-size: 19px;
@@ -76,7 +74,7 @@ input::placeholder{
     font-weight: 500;
 
 }
-.c-1{
+.c-11{
     display: flex;
     
 }
@@ -97,6 +95,7 @@ form{
     border-radius:2rem;
     color: #fff;
     font-size: 1.7rem;
+    border: none;
 
 }
 .g-recaptcha{
