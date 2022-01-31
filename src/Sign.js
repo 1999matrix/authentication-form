@@ -1,9 +1,12 @@
 import React from 'react';
 import './sign.css';
 import { useState } from 'react';
+// import { useNavigate } from 'react-router-dom';
 import Axios from 'axios'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Sign = () => {
+    const nav = useNavigate();
     const url ="https://curd-web.herokuapp.com/register"
     // const url ="http://localhost:3001"
     // const url ="/register"
@@ -27,6 +30,7 @@ const Sign = () => {
     //     setData({...data , [name]:value})
     // }
     function handle(e){
+        
         const newdata ={...data}
         newdata[e.target.id]=e.target.value
         setData(newdata);
@@ -47,8 +51,16 @@ const Sign = () => {
                 confirmpassword:data.confirmpassword
                 // gen: data.gen
             }) .then(res=> {
+                alert('Redirecting you to OTP verification page')
                 console.log(res.data)
+                nav('/Otp');
+
+            }).catch(error=>{
+                console.log(error);
+                // alert('Invalid Credentials');
+                alert(error);
             })
+            // setData("");
          }
   return(
       <>

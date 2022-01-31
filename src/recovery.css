@@ -14,10 +14,11 @@ body {
 .container-4{
     background-color: #fff;
      /* border: 5px solid red; */
-     margin-left: 12%;
+     
+     margin-left: 15%;
       min-width: 320px;
       max-width: 320px;
-      min-height: 500px;
+      min-height: 550px;
       width: 40%;
       /* height: 100vh; */
       padding: 30px;
@@ -45,26 +46,29 @@ body {
       border-left-style: none;
         border-right-style: none;
        border-bottom-style: 2px solid rgb(97, 95, 95);
+       
     }
     .rid1 h3{
         margin-top: 2.5rem;
         font-weight: 600;
     }
-    .g.submit {
+    .g.submit1 {
         text-align: center;
         margin-top: 3rem;
         
     }
-    .g .submit input{
+    .g .submit1 button{
         padding: 0.7rem 0.4rem;
         color: #fff;
         background: linear-gradient(to right,#52D1F9 ,#DC38F4 );
         border-radius: 1rem;
         font-size: 22px;
+        margin-top: 20%;
         
     }
     .rid1 input::placeholder{
         color: grey;
+        padding-right: 1px;
     }
 
     .rid1 h3 {

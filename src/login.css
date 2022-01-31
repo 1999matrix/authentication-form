@@ -58,12 +58,12 @@ body{
         font-size: 25px;
         margin-bottom: 1rem;
     }
-    .container-2 a{
-        margin-left: 60%;
+    .container-2 .reset a{
+        margin-left: 30%;
         text-decoration: none;
         color: gray;
     }
-    .container-2 a:hover{
+    .container-2  .reset a:hover{
         color: rgb(20, 20, 21);
         transition: 0.4s;
     }
