@@ -30,9 +30,10 @@ const Login = () => {
           navigate('/Home');
        
         })
-        // .catch(error => {
-        //     console.log(error)
-        //   })
+        .catch(error => {
+            console.log(error)
+            alert('Not a registered user please Sign Up')
+          })
         // .catch(err)(
         //     alert("Invalid Credentials!!")
         // )

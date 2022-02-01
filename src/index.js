@@ -13,11 +13,14 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+
+  
   <Router>
   <Routes>
+  {/* <App/> */}
+ <Route path="/Login" element={<Login/>}/>
  <Route exact path="/Home" element={<Home/>}/>
  <Route path="/Sign" element={<Sign/>}/>
- <Route path="/Login" element={<Login/>}/>
  <Route path="/Passrecovery" element={<Passrecovery/>}/>
  <Route path="/Otp" element={<Otp/>}/>
     </Routes></Router>

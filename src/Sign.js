@@ -36,6 +36,7 @@ const Sign = () => {
         setData(newdata);
         console.log(newdata);
     }
+    
          function submit(e){
             e.preventDefault();
             Axios.post(url , {
@@ -53,6 +54,7 @@ const Sign = () => {
             }) .then(res=> {
                 alert('Redirecting you to OTP verification page')
                 console.log(res.data)
+                setData("");
                 nav('/Otp');
 
             }).catch(error=>{
@@ -117,7 +119,7 @@ const Sign = () => {
 
                      <div className="form">
                    
-                         <input type="password" autoComplete='off' id='password' placeholder='Password' name='password' value={data.password} onChange={(e)=> handle(e)} required/>
+                         <input type="password" autoComplete='off' id='password' placeholder='Password' name='password' value={data.password} onChange={(e)=> handle(e)}  pattern=".{8,}"   required title="8 characters minimum"/>
                      </div>
                      </div>
                      
@@ -171,7 +173,7 @@ const Sign = () => {
 
                      <div className="submit">
                          {/* <input type="submit" value='Sign Up' name='submit'/> */}
-                         <button>Sign Up</button>
+                         <button type='submit' >Sign Up</button>
                      </div>
                  </form>
 
